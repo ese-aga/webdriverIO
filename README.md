@@ -44,7 +44,7 @@ Execute from project directory:
 2. Use "npx wdio" in project directory via command line/terminal to run the test
 
 # To Run Test in Docker
-execute from project directory: 
+Execute from project directory: 
 1. docker build -t volvotest -f Dockerfile . 
 2. dockerun -it -p 5050:5050 volvotest
 
