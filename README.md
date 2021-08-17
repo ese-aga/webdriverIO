@@ -51,15 +51,15 @@ execute from project directory:
 # To view Allure Report
 
 Note: Report was generated using Allure and Spec
+1. npm install allure-commandline -g
 
-1. To view result in Docker, use localhost:5050, after docker build and run command  
+2. To view result in Docker, use localhost:5050, after docker build and run command  
 
 Note: Port 5050 was configured for the allure report
 
-2. To view result outside Docker
-   
-   npm install allure-commandline -g
-   allure generate allure-results && allure open
-   allure generate allure-results  --clean && allure open   # this is to view report from subsequent tests
+3. To view result outside Docker, use the following commands:
+
+   a. allure generate allure-results && allure open
+   b. allure generate allure-results  --clean && allure open   # this is to generate report for subsequent tests
 
  
