@@ -60,6 +60,6 @@ Note: Port 5050 was configured for the allure report
 3. To view result outside Docker, use the following commands:
 
    a. allure generate allure-results && allure open
-   b. allure generate allure-results  --clean && allure open   # this is to generate report for subsequent tests
+   b. allure generate allure-results --clean && allure open   # this is to generate report for subsequent tests
 
  
